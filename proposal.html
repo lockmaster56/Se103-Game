@@ -16,6 +16,47 @@ next level. Some of the other graphics will be taken from games. </p>
 <li>Music and sounds
 </ol>
 
+<p> iw48@ws77:~$ cd https://github.com/lockmaster56/Se103-Game.git
+bash: cd: https://github.com/lockmaster56/Se103-Game.git: No such file or directory
+iw48@ws77:~$ git@github.com:lockmaster56/Se103-Game.git
+bash: git@github.com:lockmaster56/Se103-Game.git: No such file or directory
+iw48@ws77:~$ cd ~/Se103-Game
+iw48@ws77:~/Se103-Game$ git add GroupProject*
+fatal: pathspec 'GroupProject*' did not match any files
+iw48@ws77:~/Se103-Game$ git add Group Project*
+fatal: pathspec 'Group' did not match any files
+iw48@ws77:~/Se103-Game$ git add Group Project
+fatal: pathspec 'Group' did not match any files
+iw48@ws77:~/Se103-Game$ git add Group*
+iw48@ws77:~/Se103-Game$ git commit -m "comment"
+[master 3b7b49d] comment
+ Committer: Imani Walker <iw48@cs.drexel.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 118 insertions(+)
+ create mode 100644 Group Project/.classpath
+ create mode 100644 Group Project/.project
+ create mode 100644 Group Project/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 Group Project/bin/GameFrame.class
+ create mode 100644 Group Project/bin/Pacman.class
+ create mode 100644 Group Project/src/GameFrame.java
+ create mode 100644 Group Project/src/Pacman.java
+iw48@ws77:~/Se103-Game$ git push
+Username for 'https://github.com': imaniwalker
+Password for 'https://imaniwalker@github.com': 
+To https://github.com/lockmaster56/Se103-Game.git
+   eaeaaad..3b7b49d  master -> master
+iw48@ws77:~/Se103-Game$ 
+</p>
 <hr>
 
 <ol><h2>Non-Functional Requirements </h2>
